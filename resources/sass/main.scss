@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.index-img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.del-btn,
+i{
+    border: none;
+    background: transparent;
+    color: #1c79f1;
+}
+
+.posts,
+.profile{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.card{
+    width: 100%;
+}
